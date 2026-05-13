@@ -2,6 +2,8 @@ import nidaqmx
 import numpy as np
 import time
 
+# OPEN NI MAX OCH HITTA VAD DAQ-KORTET HETER, EXEMPEL "Dev1/ao0"
+
 # ============================================
 # Staircase waveform generator for NI DAQ card
 # ============================================
