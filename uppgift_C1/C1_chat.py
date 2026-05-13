@@ -11,7 +11,7 @@ import time
 # Create staircase values:
 # -10 -> +10 -> -10
 up = np.arange(-10, 11, 2)      # Rising staircase
-down = np.arange(8, -11, -2)    # Falling staircase
+down = np.arange(8, -10, -2)    # Falling staircase
 
 waveform = np.concatenate((up, down))
 
